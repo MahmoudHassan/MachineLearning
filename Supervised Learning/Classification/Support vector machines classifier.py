@@ -32,4 +32,5 @@ print("SVC predict [8.5,10] is ",model.predict([[8.5,10]]))
 plt.scatter(8.5,10,c='r')
 #Draw input and output array 
 plt.scatter(input_array[:,0],input_array[:,1],c=output_array)
+#Display all figures
 plt.show()
